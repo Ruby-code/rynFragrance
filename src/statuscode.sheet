@@ -1,0 +1,23 @@
+status code 
+
+succuessful
+200- The requset was a good requset and was succuessful
+201- when you create some thing and it was succussful use 201. sending a 201 is to give the browser an idea that you you created something and it's not just a general success message
+204- means everything went well,everything worked as expected but you have nothing to return. can be used in a delete request
+redirection
+300 - redirection
+304- not modified
+Client error
+400 -  bad request. somethig went wrong, information was bad 
+401- unauthorized. trying to access something that you don't have an access to "the site is saying i have no idea who you are cos you are either not logged in or do not have ann api key"
+403- forbidden. if the user sends an api key e.g a basic user trying to access an admin section "the site says i now who you are but you can't access  this section so go away"
+404- Not found. when the server can't what what the user is using for
+Server error
+405- Bad method this happens when the user interchanges the put to poast or something else 
+409- conflict
+422- Unprocessed entity. when u input a number in place of a string.
+500- Internal server error "the server is broken " 
+
+
+
+Build a crud todo app
